@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# Script originally written by u/ShiftyAxel on reddit for windows, rewritten in bash for linux.
 
 # Set to wherever your retroarch directory is (contains paylists folder, cores folder, etc.), typically in ~/.config/retroarch
 RetroArchDir="/home/jordan/.config/retroarch"
@@ -9,7 +10,7 @@ RomsDir="/home/jordan/Roms"
 CoresDir="/usr/lib/libretro"
 
 # Example of how to setup a SNES and NES playlist.
-# Can use "DETECT" instead of core lib and name, as well as playlist name if unsure
+# Can use "DETECT" instead of corelibs and corename, as well as playlist name if unsure
 
 RomDirs[0]="SNES"
 CoreLibs[0]="snes9x_libretro.so"
